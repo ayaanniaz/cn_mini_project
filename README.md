@@ -99,15 +99,6 @@ python client.py
 
 ---
 
-## 🎓 Learning Tips
-
-- Read code comments - they explain each networking concept
-- Try running multiple clients to see concurrent connections
-- Watch server console to see UDP messages (status, heartbeats)
-- Experiment with TCP vs UDP by modifying the code
-
----
-
 ## 🛑 Stopping the Server
 
 Press `Ctrl + C` in the server terminal for graceful shutdown.
