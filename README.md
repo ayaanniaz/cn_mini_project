@@ -1,10 +1,10 @@
-# 🌐 Network Chat Application
+# Network Chat Application
 
 A Python chat app demonstrating fundamental networking concepts using **TCP** (reliable messages) and **UDP** (fast status updates).
 
 ---
 
-## 🎯 What It Does
+## What It Does
 
 - Real-time multi-user chat using **TCP** protocol
 - Fast presence updates using **UDP** protocol
@@ -13,7 +13,7 @@ A Python chat app demonstrating fundamental networking concepts using **TCP** (r
 
 ---
 
-## 📚 Network Concepts Covered
+## Network Concepts Covered
 
 - **TCP**: Connection-oriented, reliable delivery (chat messages)
 - **UDP**: Connectionless, fast transmission (status updates, heartbeats)
@@ -23,14 +23,14 @@ A Python chat app demonstrating fundamental networking concepts using **TCP** (r
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.6+
 - No external dependencies (uses standard library only)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Start the Server
 ```bash
@@ -46,7 +46,7 @@ python client.py
 
 ---
 
-## 💬 Client Commands
+## Client Commands
 
 - `<message>` - Send chat message (TCP)
 - `/status <status>` - Change status (UDP)
@@ -62,7 +62,7 @@ python client.py
 
 ---
 
-## 📁 Project Files
+## Project Files
 
 - `config.py` - Configuration (ports, buffer sizes)
 - `server.py` - Server handling TCP + UDP
@@ -70,7 +70,7 @@ python client.py
 
 ---
 
-## 🌐 Chat with Remote Computers
+## Chat with Remote Computers
 
 ### Enable LAN Access:
 
@@ -89,7 +89,7 @@ python client.py
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
@@ -108,34 +108,7 @@ python client.py
 
 ---
 
-## 🔧 Extension Ideas
-
-- Add encryption (TLS/SSL)
-- Private messaging between users
-- File transfer over TCP
-- GUI interface (Tkinter/PyQt)
-- Message history/database
-- Authentication system
-
----
-
-## 📖 Key Takeaways
-
-**TCP vs UDP:**
-- TCP = Reliable, ordered, slower (use for critical data)
-- UDP = Fast, unreliable, lower overhead (use for real-time updates)
-
-**Real-world usage:**
-- Video calls: UDP (audio/video) + TCP (chat)
-- Online games: UDP (positions) + TCP (game state)
-- This app: TCP (messages) + UDP (presence)
-
----
-
 ## 🛑 Stopping the Server
 
 Press `Ctrl + C` in the server terminal for graceful shutdown.
 
----
-
-**Happy Learning! 🚀**
